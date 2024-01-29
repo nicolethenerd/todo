@@ -1,7 +1,25 @@
 .App {
+  margin: 0 auto;
   text-align: center;
+  width: 300px;
+}
+
+ul {
+	padding: 0;
 }
 
 li {
   list-style-type: none;
+}
+
+.DeleteButtton {
+	color: white;
+	vertical-align: top;
+}
+
+.AddItem,
+.TodoItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
